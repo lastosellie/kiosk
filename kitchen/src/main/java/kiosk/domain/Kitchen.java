@@ -1,12 +1,13 @@
 package kiosk.domain;
 
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.List;
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.PostPersist;
+import javax.persistence.Table;
+
 import kiosk.KitchenApplication;
-import kiosk.domain.OrderAccepted;
-import kiosk.domain.OrderRejected;
 import lombok.Data;
 
 @Entity
@@ -29,11 +30,11 @@ public class Kitchen {
 
     @PostPersist
     public void onPostPersist() {
-        OrderAccepted orderAccepted = new OrderAccepted(this);
-        orderAccepted.publishAfterCommit();
+        // OrderAccepted orderAccepted = new OrderAccepted(this);
+        // orderAccepted.publishAfterCommit();
 
-        OrderRejected orderRejected = new OrderRejected(this);
-        orderRejected.publishAfterCommit();
+        // OrderRejected orderRejected = new OrderRejected(this);
+        // orderRejected.publishAfterCommit();
     }
 
     public static KitchenRepository repository() {
@@ -71,6 +72,26 @@ public class Kitchen {
 
          });
         */
+        Kitchen kitchen = new Kitchen();
+        kitchen.setId(orderOccured.getId());
+        kitchen.setTableId(orderOccured.getTableId());
+        kitchen.setMenuId(orderOccured.getMenuId());
+        kitchen.setMenuPrice(orderOccured.getMenuPrice());
+        
+        String menuId = orderOccured.getMenuId();
+        if (menuId.contains("1") || menuId.contains("3")) {
+            repository().save(kitchen);
+
+            System.out.println("orderAccepted ★★★★★★★★★★★★★★★");
+            OrderAccepted orderAccepted = new OrderAccepted(kitchen);
+            orderAccepted.publishAfterCommit();
+        } else {
+            System.out.println("orderRejected ★★★★★★★★★★★★★★★");
+            OrderRejected orderRejected = new OrderRejected(kitchen);
+            orderRejected.publishAfterCommit();
+        }
+        
+
 
     }
     //>>> Clean Arch / Port Method
