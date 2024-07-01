@@ -70,6 +70,7 @@
                     { text: "saleDate", value: "saleDate" },
                     { text: "saleAmount", value: "saleAmount" },
                     { text: "menuPrice", value: "menuPrice" },
+                    { text: "menuId", value: "menuId" },
                 ],
             sales : [],
             newValue: {},
@@ -90,6 +91,7 @@
                 'saleDate': '2024-07-01',
                 'saleAmount': '',
                 'menuPrice': '',
+                'menuId': '',
             }
         },
         methods: {

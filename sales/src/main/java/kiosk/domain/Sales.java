@@ -23,6 +23,8 @@ public class Sales {
 
     private String menuPrice;
 
+    private String menuId;
+
     public static SalesRepository repository() {
         SalesRepository salesRepository = SalesApplication.applicationContext.getBean(
             SalesRepository.class

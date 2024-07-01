@@ -19,6 +19,7 @@
             <Date label="SaleDate" v-model="value.saleDate" :editMode="editMode" :inputUI="''"/>
             <String label="SaleAmount" v-model="value.saleAmount" :editMode="editMode" :inputUI="''"/>
             <String label="MenuPrice" v-model="value.menuPrice" :editMode="editMode" :inputUI="''"/>
+            <String label="MenuId" v-model="value.menuId" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
         <v-card-actions>

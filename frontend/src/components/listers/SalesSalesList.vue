@@ -44,6 +44,7 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
@@ -51,6 +52,7 @@
                             [ SaleDate :  {{data.saleDate }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ SaleAmount :  {{data.saleAmount }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ MenuPrice :  {{data.menuPrice }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            [ MenuId :  {{data.menuId }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </v-list-item-subtitle>
 
                     </v-list-item-content>
@@ -121,6 +123,7 @@
                 'saleDate': '2024-07-01',
                 'saleAmount': '',
                 'menuPrice': '',
+                'menuId': '',
             }
         },
         methods: {

@@ -40,7 +40,7 @@ mvn spring-boot:run
 ```
 - sales
 ```
- http :8088/sales id="id" saleDate="saleDate" saleAmount="saleAmount" menuPrice="menuPrice" 
+ http :8088/sales id="id" saleDate="saleDate" saleAmount="saleAmount" menuPrice="menuPrice" menuId="menuId" 
 ```
 - kitchen
 ```

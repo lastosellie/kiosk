@@ -112,6 +112,7 @@
                 'saleDate': '2024-07-01',
                 'saleAmount': '',
                 'menuPrice': '',
+                'menuId': '',
             }
         },
         methods:{

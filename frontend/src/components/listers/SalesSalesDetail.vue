@@ -14,6 +14,9 @@
             <div>
                 <String label="MenuPrice" v-model="item.menuPrice" :editMode="editMode" @change="change" />
             </div>
+            <div>
+                <String label="MenuId" v-model="item.menuId" :editMode="editMode" @change="change" />
+            </div>
         </v-card-text>
 
         <v-card-actions>
