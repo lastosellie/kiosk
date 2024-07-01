@@ -14,8 +14,8 @@ import SalesSalesDetail from "./components/listers/SalesSalesDetail"
 import KitchenKitchenManager from "./components/listers/KitchenKitchenCards"
 import KitchenKitchenDetail from "./components/listers/KitchenKitchenDetail"
 
-import TableTableManager from "./components/listers/TableTableCards"
-import TableTableDetail from "./components/listers/TableTableDetail"
+import RestauranttableRestaurantTableManager from "./components/listers/RestauranttableRestaurantTableCards"
+import RestauranttableRestaurantTableDetail from "./components/listers/RestauranttableRestaurantTableDetail"
 
 
 
@@ -57,14 +57,14 @@ export default new Router({
             },
 
             {
-                path: '/tables/tables',
-                name: 'TableTableManager',
-                component: TableTableManager
+                path: '/restauranttables/restaurantTables',
+                name: 'RestauranttableRestaurantTableManager',
+                component: RestauranttableRestaurantTableManager
             },
             {
-                path: '/tables/tables/:id',
-                name: 'TableTableDetail',
-                component: TableTableDetail
+                path: '/restauranttables/restaurantTables/:id',
+                name: 'RestauranttableRestaurantTableDetail',
+                component: RestauranttableRestaurantTableDetail
             },
 
 

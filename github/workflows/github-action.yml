@@ -32,7 +32,7 @@ jobs:
           mvn clean package -f ./menu/pom.xml
           mvn clean package -f ./sales/pom.xml
           mvn clean package -f ./kitchen/pom.xml
-          mvn clean package -f ./table/pom.xml
+          mvn clean package -f ./restauranttable/pom.xml
           mvn clean package -f ./customercenter/pom.xml
 
       - name: Docker Build and push for Menu
@@ -65,15 +65,15 @@ jobs:
             ghcr.io/${{ github.repository }}/kitchen:latest
             ghcr.io/${{ github.repository }}/kitchen:${{ github.ref_name }}
             
-      - name: Docker Build and push for Table
+      - name: Docker Build and push for Restauranttable
         uses: docker/build-push-action@v4
         with:
-          context: ./table
+          context: ./restauranttable
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/table:latest
-            ghcr.io/${{ github.repository }}/table:${{ github.ref_name }}
+            ghcr.io/${{ github.repository }}/restauranttable:latest
+            ghcr.io/${{ github.repository }}/restauranttable:${{ github.ref_name }}
             
       - name: Docker Build and push for Customercenter
         uses: docker/build-push-action@v4

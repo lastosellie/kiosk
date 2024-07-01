@@ -65,7 +65,7 @@ services:
       - ./kitchen:/usr/src
       - ./maven-repo:/root/.m2
       
-  table:
+  restauranttable:
     depends_on: 
       - kafka
     image: adoptopenjdk/maven-openjdk11:latest
@@ -76,7 +76,7 @@ services:
       - 8085:8085
     working_dir: /usr/src
     volumes:
-      - ./table:/usr/src
+      - ./restauranttable:/usr/src
       - ./maven-repo:/root/.m2
       
   customercenter:

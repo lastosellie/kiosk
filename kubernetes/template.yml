@@ -123,22 +123,22 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: table
+  name: restauranttable
   labels:
-    app: table
+    app: restauranttable
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: table
+      app: restauranttable
   template:
     metadata:
       labels:
-        app: table
+        app: restauranttable
     spec:
       containers:
-        - name: table
-          image: username/table:latest
+        - name: restauranttable
+          image: username/restauranttable:latest
           ports:
             - containerPort: 8080
           readinessProbe:
@@ -256,15 +256,15 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: table
+  name: restauranttable
   labels:
-    app: table
+    app: restauranttable
 spec:
   ports:
     - port: 8080
       targetPort: 8080
   selector:
-    app: table
+    app: restauranttable
 
 
 ---

@@ -72,13 +72,13 @@
 
                     <v-list-item
                         class="px-2"
-                        key="tables"
-                        to="/tables/tables"
+                        key="restaurantTables"
+                        to="/restauranttables/restaurantTables"
                         @click="changeUrl()"
                         color="primary"
                         style="font-weight:700;"
                     >
-                        table
+                        restaurantTable
                     </v-list-item>
 
 
@@ -183,10 +183,10 @@ export default {
                 ImageUrl: '',
             },
             { 
-                title: 'table', 
+                title: 'restaurantTable', 
                 description: '', 
-                key: 'tables', 
-                route: '/tables/tables',
+                key: 'restaurantTables', 
+                route: '/restauranttables/restaurantTables',
                 ImageUrl: '',
             },
             

@@ -23,7 +23,7 @@ See the README.md files inside the each microservices directory:
 - menu
 - sales
 - kitchen
-- table
+- restauranttable
 - customercenter
 
 
@@ -46,9 +46,9 @@ mvn spring-boot:run
 ```
  http :8088/kitchens id="id" tableId="tableId" menuId="menuId" munuState="munuState" menuPrice="menuPrice" 
 ```
-- table
+- restauranttable
 ```
- http :8088/tables id="id" tableId="tableId" menuId="menuId" menuStatus="menuStatus" menuName="menuName" menuPrice="menuPrice" saleDate="saleDate" 
+ http :8088/restaurantTables id="id" tableId="tableId" menuId="menuId" menuStatus="menuStatus" menuName="menuName" menuPrice="menuPrice" saleDate="saleDate" 
 ```
 - customercenter
 ```

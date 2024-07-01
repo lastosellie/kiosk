@@ -21,10 +21,10 @@ spring:
           uri: http://localhost:8084
           predicates:
             - Path=/kitchens/**, 
-        - id: table
+        - id: restauranttable
           uri: http://localhost:8085
           predicates:
-            - Path=/tables/**, 
+            - Path=/restaurantTables/**, 
         - id: customercenter
           uri: http://localhost:8086
           predicates:
@@ -65,10 +65,10 @@ spring:
           uri: http://kitchen:8080
           predicates:
             - Path=/kitchens/**, 
-        - id: table
-          uri: http://table:8080
+        - id: restauranttable
+          uri: http://restauranttable:8080
           predicates:
-            - Path=/tables/**, 
+            - Path=/restaurantTables/**, 
         - id: customercenter
           uri: http://customercenter:8080
           predicates:
