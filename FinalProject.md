@@ -8,6 +8,10 @@
 ### 분산트랜잭션 - Saga
 ### 보상처리 - Compensation
 ### 단일 진입점 - Gateway
+![image](https://github.com/lastosellie/kiosk/assets/52234918/5afcac08-38ff-45bf-afbb-0381c0198f3d)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/8cd90e7d-df91-456a-b240-3c01bdb160a8)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/6f96bfc3-7a6f-4a16-8962-f7decd7532dc)
+
 ### 분산 데이터 프로젝션 - CQRS
 
 ## 클라우드 네이티브 운영(PaaS)
