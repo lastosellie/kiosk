@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: restauranttable
-          image: "username/restauranttable:latest"
+          image: "lastosellie/restauranttable:240702"
           ports:
             - containerPort: 8080
           readinessProbe:
