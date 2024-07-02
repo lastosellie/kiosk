@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: customercenter
-          image: "username/customercenter:latest"
+          image: lastosellie/customercenter:240703
           ports:
             - containerPort: 8080
           readinessProbe:

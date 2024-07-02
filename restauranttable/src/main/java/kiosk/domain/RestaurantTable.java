@@ -1,11 +1,15 @@
 package kiosk.domain;
 
-import java.time.LocalDate;
 import java.util.Date;
-import java.util.List;
-import javax.persistence.*;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.PostPersist;
+import javax.persistence.Table;
+
 import kiosk.RestauranttableApplication;
-import kiosk.domain.OrderOccured;
 import lombok.Data;
 
 @Entity
@@ -67,6 +71,14 @@ public class RestaurantTable {
 
          });
         */
+
+        repository().findById(orderRejected.getId()).ifPresent(restaurantTable->{
+            
+            orderRejected.setMunuState(orderRejected.getMunuState());
+            repository().save(restaurantTable);
+
+
+         });
 
     }
     //>>> Clean Arch / Port Method

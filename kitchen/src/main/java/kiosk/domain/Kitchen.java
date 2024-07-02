@@ -80,6 +80,7 @@ public class Kitchen {
         
         String menuId = orderOccured.getMenuId();
         if (menuId.contains("1") || menuId.contains("3")) {
+            kitchen.setMunuState("조리중");
             repository().save(kitchen);
 
             System.out.println("orderAccepted ★★★★★★★★★★★★★★★");
@@ -87,6 +88,7 @@ public class Kitchen {
             orderAccepted.publishAfterCommit();
         } else {
             System.out.println("orderRejected ★★★★★★★★★★★★★★★");
+            kitchen.setMunuState("취소됨");
             OrderRejected orderRejected = new OrderRejected(kitchen);
             orderRejected.publishAfterCommit();
         }
