@@ -25,7 +25,7 @@ spring:
           uri: http://localhost:8085
           predicates:
             - Path=/restaurantTables/**, 
-        - id: customercenter
+        - id: menupage
           uri: http://localhost:8086
           predicates:
             - Path=, 
@@ -69,8 +69,8 @@ spring:
           uri: http://restauranttable:8080
           predicates:
             - Path=/restaurantTables/**, 
-        - id: customercenter
-          uri: http://customercenter:8080
+        - id: menupage
+          uri: http://menupage:8080
           predicates:
             - Path=, 
         - id: frontend

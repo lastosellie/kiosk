@@ -88,7 +88,7 @@
             this.values = temp.data._embedded.sales;
 
             this.newValue = {
-                'saleDate': '2024-07-01',
+                'saleDate': '2024-07-03',
                 'saleAmount': '',
                 'menuPrice': '',
                 'menuId': '',

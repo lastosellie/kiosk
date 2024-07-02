@@ -24,7 +24,7 @@ See the README.md files inside the each microservices directory:
 - sales
 - kitchen
 - restauranttable
-- customercenter
+- menupage
 
 
 ## Run API Gateway (Spring Gateway)
@@ -50,7 +50,7 @@ mvn spring-boot:run
 ```
  http :8088/restaurantTables id="id" tableId="tableId" menuId="menuId" menuStatus="menuStatus" menuName="menuName" menuPrice="menuPrice" saleDate="saleDate" 
 ```
-- customercenter
+- menupage
 ```
 ```
 

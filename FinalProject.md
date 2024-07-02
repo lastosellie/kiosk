@@ -1,0 +1,24 @@
+## 클라우드 네이트브 아키텍처(IaaS)
+### 클라우드 아키텍처 구성, MSA 아키텍처 구성도
+
+## 클라우드 네이티브 모델링 (Biz.)
+### 도메인분석 - 이벤트 스토밍
+![image](https://github.com/lastosellie/kiosk/assets/52234918/067d0f62-ccaf-4eed-852f-28bcd6e7fcf2)
+## 클라우드 네이티브 개발 MSA (Dev.)
+### 분산트랜잭션 - Saga
+### 보상처리 - Compensation
+### 단일 진입점 - Gateway
+![image](https://github.com/lastosellie/kiosk/assets/52234918/5afcac08-38ff-45bf-afbb-0381c0198f3d)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/8cd90e7d-df91-456a-b240-3c01bdb160a8)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/6f96bfc3-7a6f-4a16-8962-f7decd7532dc)
+
+### 분산 데이터 프로젝션 - CQRS
+
+## 클라우드 네이티브 운영(PaaS)
+### 클라우드 배포 - Container 운영
+### 컨테이너 자동확장 - HPA
+### 컨테이너로부터 환경분리 - ConfigMap/Secret
+### 클라우드스토리지 활용 - PVC
+### 셀프 힐링/무정지배포 - Liveness/Rediness Probe
+### 서비스 메시 응용 - Mesh (Istio)
+### 통합 모니터링 - Loggregation/Monitoring

@@ -114,7 +114,7 @@
                 'menuStatus': '',
                 'menuName': '',
                 'menuPrice': '',
-                'saleDate': '2024-07-01',
+                'saleDate': '2024-07-03',
             }
         },
         methods:{
