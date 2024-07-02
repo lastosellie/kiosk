@@ -13,6 +13,13 @@
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/6f96bfc3-7a6f-4a16-8962-f7decd7532dc)
 
 ### 분산 데이터 프로젝션 - CQRS
+![image](https://github.com/lastosellie/kiosk/assets/52234918/635aa552-3c1b-465b-a906-64150f48c204)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/031efded-7fbc-4cad-8b04-4fb08efae3c5)
+```
+http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazonaws.com:8080/restaurantTables tableId=1 menuId=1 menuStatus=orderReady menuName=Orage menuPrice=1000
+http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazonaws.com:8080/restaurantTables tableId=1 menuId=2 menuStatus=orderReady menuName=Apple menuPrice=2000
+```
+![image](https://github.com/lastosellie/kiosk/assets/52234918/b2370007-553f-4fa5-8544-cb07980c412d)
 
 ## 클라우드 네이티브 운영(PaaS)
 ### 클라우드 배포 - Container 운영
