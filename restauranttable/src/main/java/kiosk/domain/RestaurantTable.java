@@ -74,7 +74,7 @@ public class RestaurantTable {
 
         repository().findById(orderRejected.getId()).ifPresent(restaurantTable->{
             
-            orderRejected.setMunuState(orderRejected.getMunuState());
+            restaurantTable.setMenuStatus(orderRejected.getMunuState());
             repository().save(restaurantTable);
 
 

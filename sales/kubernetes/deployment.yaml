@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sales
-          image: "lastosellie/sales:240702"
+          image: "lastosellie/sales:v1"
           ports:
             - containerPort: 8080
           readinessProbe:

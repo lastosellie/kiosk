@@ -36,6 +36,8 @@ public class Sales {
 
     //<<< Clean Arch / Port Method
     public static void salesPlus(OrderAccepted orderAccepted) {
+        Sales sales = new Sales();
+        repository().save(sales);
         //implement business logic here:
 
         /** Example 1:  new item 
