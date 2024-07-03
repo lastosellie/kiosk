@@ -48,3 +48,5 @@ readinessProbe
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/113b2459-4095-431c-a44d-be5545c79631)
 
 #### 7.통합 모니터링 - Loggregation/Monitoring
+![image](https://github.com/lastosellie/kitchen/assets/52234918/3db02798-9752-4eca-a231-1406bdf9555b)
+
