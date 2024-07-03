@@ -10,6 +10,10 @@
 
 ### ■ 클라우드 네이티브 개발 MSA (Dev.)
 #### 1.분산트랜잭션 - Saga
+```
+http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazonaws.com:8080/restaurantTables tableId=1 menuId=1 menuStatus=orderReady menuName=Orage menuPrice=1000
+http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazonaws.com:8080/restaurantTables tableId=1 menuId=2 menuStatus=orderReady menuName=Apple menuPrice=2000
+```
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/dd82b2c2-dc82-42ab-8842-0ad12ac4316a)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/66f2b4f8-8320-49bd-a18a-641be6eb93b2)
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/2b82c5a2-5765-4fd1-aa0d-cfa6cd965963)
