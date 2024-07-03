@@ -14,6 +14,9 @@
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/66f2b4f8-8320-49bd-a18a-641be6eb93b2)
 
 #### 2.보상처리 - Compensation
+![image](https://github.com/lastosellie/kiosk/assets/52234918/dd82b2c2-dc82-42ab-8842-0ad12ac4316a)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/66f2b4f8-8320-49bd-a18a-641be6eb93b2)
+
 #### 3.단일 진입점 - Gateway
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/5afcac08-38ff-45bf-afbb-0381c0198f3d)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/8cd90e7d-df91-456a-b240-3c01bdb160a8)
@@ -49,4 +52,5 @@ readinessProbe
 
 #### 7.통합 모니터링 - Loggregation/Monitoring
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/3db02798-9752-4eca-a231-1406bdf9555b)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/4c1beb44-610b-4f5a-89af-2d3a43f0eaca)
 
