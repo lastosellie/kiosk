@@ -37,5 +37,8 @@ http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazona
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/ea45a299-e51a-420e-9475-9075420ca499)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/2c6e7c0d-676c-4b52-992a-37b016976a7c)
 #### 5.셀프 힐링/무정지배포 - Liveness/Rediness Probe
+readinessProbe
+![image](https://github.com/lastosellie/kitchen/assets/52234918/4fdd8f2c-4796-4898-9f6e-4bea9d671e25)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/f8b119f2-06e6-4d9f-94ed-99ff8eb7f0ee)
 #### 6.서비스 메시 응용 - Mesh (Istio)
 #### 7.통합 모니터링 - Loggregation/Monitoring
