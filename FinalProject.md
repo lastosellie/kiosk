@@ -1,6 +1,6 @@
 ### ■ 클라우드 네이티브 아키텍처(IaaS)
 #### 1.클라우드 아키텍처 구성, MSA 아키텍처 구성도
-![image](https://github.com/lastosellie/kitchen/assets/52234918/6d36e1f1-1824-4dc2-b0f5-2b15b25bda2b)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/c447e763-3df1-4314-a293-35242534ae85)
 <br />   
 
 ### ■ 클라우드 네이티브 모델링 (Biz.)
