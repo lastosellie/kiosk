@@ -1,5 +1,6 @@
 ### ■ 클라우드 네이티브 아키텍처(IaaS)
 #### 1.클라우드 아키텍처 구성, MSA 아키텍처 구성도
+![image](https://github.com/lastosellie/kitchen/assets/52234918/6d36e1f1-1824-4dc2-b0f5-2b15b25bda2b)
 <br />   
 
 ### ■ 클라우드 네이티브 모델링 (Biz.)
@@ -33,6 +34,7 @@ http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazona
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/84667238-d23b-4de0-8109-91ad8f5e0b1f)
 #### 2.컨테이너 자동확장 - HPA
 #### 3.컨테이너로부터 환경분리 - ConfigMap/Secret
+![image](https://github.com/lastosellie/kitchen/assets/52234918/f5c2e3b3-b590-47f3-aca5-dcdee8af2aca)
 #### 4.클라우드스토리지 활용 - PVC
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/ea45a299-e51a-420e-9475-9075420ca499)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/2c6e7c0d-676c-4b52-992a-37b016976a7c)
