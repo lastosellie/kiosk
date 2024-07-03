@@ -12,6 +12,8 @@
 #### 1.분산트랜잭션 - Saga
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/dd82b2c2-dc82-42ab-8842-0ad12ac4316a)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/66f2b4f8-8320-49bd-a18a-641be6eb93b2)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/2b82c5a2-5765-4fd1-aa0d-cfa6cd965963)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/98a23ab0-343c-4bea-8300-0fd5a18842e3)
 
 #### 2.보상처리 - Compensation
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/dd82b2c2-dc82-42ab-8842-0ad12ac4316a)
