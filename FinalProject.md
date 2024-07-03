@@ -1,6 +1,6 @@
 ### ■ 클라우드 네이티브 아키텍처(IaaS)
 #### 1.클라우드 아키텍처 구성, MSA 아키텍처 구성도
-![image](https://github.com/lastosellie/kitchen/assets/52234918/6d36e1f1-1824-4dc2-b0f5-2b15b25bda2b)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/c447e763-3df1-4314-a293-35242534ae85)
 <br />   
 
 ### ■ 클라우드 네이티브 모델링 (Biz.)
@@ -14,6 +14,9 @@
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/66f2b4f8-8320-49bd-a18a-641be6eb93b2)
 
 #### 2.보상처리 - Compensation
+![image](https://github.com/lastosellie/kiosk/assets/52234918/dd82b2c2-dc82-42ab-8842-0ad12ac4316a)
+![image](https://github.com/lastosellie/kiosk/assets/52234918/66f2b4f8-8320-49bd-a18a-641be6eb93b2)
+
 #### 3.단일 진입점 - Gateway
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/5afcac08-38ff-45bf-afbb-0381c0198f3d)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/8cd90e7d-df91-456a-b240-3c01bdb160a8)
@@ -48,3 +51,8 @@ readinessProbe
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/113b2459-4095-431c-a44d-be5545c79631)
 
 #### 7.통합 모니터링 - Loggregation/Monitoring
+![image](https://github.com/lastosellie/kitchen/assets/52234918/3db02798-9752-4eca-a231-1406bdf9555b)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/4c1beb44-610b-4f5a-89af-2d3a43f0eaca)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/caa6170c-18f5-4e24-940c-22f65eb9f2d0)
+
+
