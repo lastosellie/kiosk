@@ -43,4 +43,6 @@ readinessProbe
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/4fdd8f2c-4796-4898-9f6e-4bea9d671e25)
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/f8b119f2-06e6-4d9f-94ed-99ff8eb7f0ee)
 #### 6.서비스 메시 응용 - Mesh (Istio)
+![image](https://github.com/lastosellie/kitchen/assets/52234918/113b2459-4095-431c-a44d-be5545c79631)
+
 #### 7.통합 모니터링 - Loggregation/Monitoring
