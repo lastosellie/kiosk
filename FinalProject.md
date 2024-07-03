@@ -33,6 +33,7 @@ http http://aca6b192910114b238e69fe51495f7a7-2098231161.ca-central-1.elb.amazona
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/ae730840-528c-487f-b97a-3f2ec3c0d263)
 ![image](https://github.com/lastosellie/kiosk/assets/52234918/84667238-d23b-4de0-8109-91ad8f5e0b1f)
 #### 2.컨테이너 자동확장 - HPA
+![image](https://github.com/lastosellie/kitchen/assets/52234918/dd0b6f9b-3a83-42f2-a465-873f650a4a65)
 #### 3.컨테이너로부터 환경분리 - ConfigMap/Secret
 ![image](https://github.com/lastosellie/kitchen/assets/52234918/f5c2e3b3-b590-47f3-aca5-dcdee8af2aca)
 #### 4.클라우드스토리지 활용 - PVC
